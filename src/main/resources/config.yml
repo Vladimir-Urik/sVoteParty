@@ -1,0 +1,24 @@
+on-vote:
+  broadcast:
+    - "&e&lVote &7► &7Hráč: &e%player_name% &7hlasoval za nás a získal odmenu! Hlasuj aj ty! &e/vote"
+  messages:
+    - "&e&lVote &7► &f&e%player_name%, Dakujeme že si za nás hlasoval! &c&l❤"
+  commands:
+    - "eco give %player_name% 250"
+    - "ccrates givekey VoteChest %player_name%"
+  full-inv:
+    - "eco give %player_name% 250"
+    - "ccrates givekey VoteChest %player_name% -v"
+
+voteparty:
+  votes: 20
+  broadcast:
+    - "&e&lVoteParty &7► &fPrávě začala párty! Všichni ste obdržali klíče k bednám a &e500 ⛃&f! Tak zhúru k openingu! &e/warp crates"
+  command:
+    - "eco give %player_name% 500"
+    - "ccrates givekey ClassicChest %player_name%"
+  full-inv:
+    - "eco give %player_name% 500"
+    - "ccrates givekey ClassicChest %player_name% -v"
+  offline:
+    - "&e&lVoteParty &7► &fTy si zmeškal VoteParty :c ! Ale neboj! Odmenu sme ti odložily :)"

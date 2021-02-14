@@ -1,0 +1,6 @@
+name: sVoteParty
+version: ${project.version}
+main: eu.SkyFull.VoteParty.Main
+api-version: 1.16
+authors: [GGGEDR]
+depend: [Votifier, PlaceholderAPI, AuthMe]
